@@ -28,6 +28,9 @@ SIMKAPAI (Sistem Informasi Manajemen Kegiatan PAI) merupakan aplikasi yang dibua
 - Memudahkan pihak kantor dalam menyusun dan menampilkan laporan kegiatan.
 - Laporan akan terorganisir dengan masing-masing kategori post kegiatan.
 
+###Halaman Home
+![Screenshot (78)](https://user-images.githubusercontent.com/84895252/220324511-8b531025-235f-458d-8a76-2829e502893d.png)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
