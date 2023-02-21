@@ -51,6 +51,17 @@
             <small class="d-block text-center mt-3
             ">Allready Registered ? <a href="/login">Login</a></small>
           </main>
+          <div class="mb-3">
+            <footer>
+            <div class="text-center mb-3">
+                <p class="mb-3 text-center">
+                    <small>
+                      <a href="https://github.com/irvanfalasifa" class="text-decoration-none text-dark">© Copyright 2022 VANNN</a>
+                    </small>
+                </p>
+            </div>
+            </footer>
+          </div>
     </div>
 </div>
 @endsection

@@ -24,23 +24,30 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        // User::create([
-        //     'name' => 'Irvan Falasifa',
-        //     'email' => 'irvan@gmail.com',
-        //     'password' => bcrypt('12345')
-        // ]);
+        User::create([
+            'name' => 'Irvan Falasifa',
+            'username' => 'irvanfalasifa',
+            'email' => 'irvan.falasifa@gmail.com',
+            'password' => bcrypt('password')
+        ]);
 
-        // User::create([
-        //     'name' => 'Koko Imut',
-        //     'email' => 'koko@gmail.com',
-        //     'password' => bcrypt('12345')
-        // ]);
+        User::create([
+            'name' => 'admin',
+            'username' => 'admin',
+            'email' => 'admin@gmail.com',
+            'password' => bcrypt('password')
+        ]);
 
         User::factory(3)->create();
 
         Category::create([
             'name' => 'Subdit PAI pada PAUD dan TK',
             'slug' => 'subdit-pai-pada-paud-dan-tk'
+        ]);
+
+        Category::create([
+            'name' => 'Subdit PAI pada SD',
+            'slug' => 'subdit-pai-pada-sd'
         ]);
 
         Category::create([
@@ -51,6 +58,16 @@ class DatabaseSeeder extends Seeder
         Category::create([
             'name' => 'Subdit PAI pada SMA',
             'slug' => 'subdit-pai-pada-sma'
+        ]);
+
+        Category::create([
+            'name' => 'Subdit PAI pada PTU',
+            'slug' => 'subdit-pai-pada-ptu'
+        ]);
+
+        Category::create([
+            'name' => 'Tata Usaha',
+            'slug' => 'tata-usaha'
         ]);
 
         Post::factory(20)->create();
