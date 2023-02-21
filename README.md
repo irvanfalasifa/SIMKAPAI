@@ -28,7 +28,6 @@ SIMKAPAI (Sistem Informasi Manajemen Kegiatan PAI) merupakan aplikasi yang dibua
 - Memudahkan pihak kantor dalam menyusun dan menampilkan laporan kegiatan.
 - Laporan akan terorganisir dengan masing-masing kategori post kegiatan.
 
-###Halaman Home
 ![Screenshot (86)](https://user-images.githubusercontent.com/84895252/220325165-c9124a5b-12ec-4fd0-bed5-9b118938bcb0.png)
 
 
